@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+/* ----------------------- navbar -----------------  */
+  
+
+.nav{
+  width: 100%;
+  height: 10vh;
+  background-color : rgb(250, 247, 247);
+  box-shadow: 10px 10px 40px rgb(202, 201, 201);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.nav-p{
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  
+}
+
+.logo{
+  font-size: 30px;
+}
+
+.logo-color{
+  color:rgb(68, 224, 224)
+}
+
+
+
+/* ---------------------- Form ------------------*/
+
+.signUp{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 110px;
+}
+
+
+.signUp-btn{
+ font-size: 15px;
+ border: 1px solid black;
+ background-color: transparent;
+ color: black;
+ padding: 5px;
+ border-radius: 5px;
+}
+
+.signUp-btn:hover{
+  padding: 8px;
+  color:rgb(68, 224, 224) ;
+  border: 1px solid rgb(68, 224, 224);
+}
+
+.contact-container{
+  padding: 0 80px 0 158px;
+  margin-bottom: 10px;
+  
+}
+
+.contact-container h1{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.form{
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.form-input{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 158px;
+}
+
+.button3{
+  width: 445px;
+  margin-bottom: 13px;
+  background-color: black;
+  color: white;
+  padding-bottom:7px;
+  border: none;
+}
+
+.button2{
+  background-color: black;
+  color: white;
+  padding-bottom:7px;
+  border: none;
+}
+
+.form-input input{
+  width: 437px;
+}
+
+.form-input-button{
+margin-bottom: 13px;
+}
+
+.form-input-button button{
+  width: 200px;
+}
+
+.button1{
+  margin-right: 45px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding-bottom: 7px;
+}
+
+.submit-btn{
+  width: 200px;
+  height: 28px;
+  display: flex;
+  margin-left: 247px;
+  padding-left: 69px;
+  padding-top: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.form-pic{
+  width: 480px;
+  height: 480px;
+  
+}
+
+.first-input{
+  margin-bottom: 13px;
+  height: 28px;
+}
+
+.second-input{
+  margin-bottom: 13px;
+  height: 28px;
+}
+
+.third-input{
+  margin-bottom: 13px;
+  height: 185px
+}
+
+
+/* -----------------------media queries------------------ */
+
+
+
+
+
